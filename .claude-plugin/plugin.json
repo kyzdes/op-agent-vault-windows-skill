@@ -1,0 +1,13 @@
+{
+  "name": "op-agent-vault-windows",
+  "version": "0.1.0",
+  "description": "Windows only: give every AI agent (Claude Code, Codex, Hermes, any shell) read and write access to one dedicated 1Password vault through a service account, with no password, Windows Hello or approval prompts. Persistent user env token, Claude Code permission and auto-mode rules, shared agent rules, and a create/edit/delete check.",
+  "author": {
+    "name": "kyzdes",
+    "url": "https://github.com/kyzdes"
+  },
+  "homepage": "https://github.com/kyzdes/op-agent-vault-windows-skill",
+  "repository": "https://github.com/kyzdes/op-agent-vault-windows-skill",
+  "license": "MIT",
+  "keywords": ["1password", "op", "service-account", "secrets", "agents", "windows"]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "op-agent-vault-windows",
+  "version": "0.1.0",
+  "description": "Только для Windows: все ИИ-агенты (Claude Code, Codex, Hermes, любая консоль) читают и пишут в выделенный сейф 1Password через сервисный аккаунт, без пароля, Windows Hello и подтверждений.",
+  "author": {
+    "name": "kyzdes",
+    "url": "https://github.com/kyzdes"
+  },
+  "homepage": "https://github.com/kyzdes/op-agent-vault-windows-skill",
+  "repository": "https://github.com/kyzdes/op-agent-vault-windows-skill",
+  "keywords": ["1password", "op", "service-account", "secrets", "agents", "windows"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "1Password для агентов (Windows)",
+    "shortDescription": "Сейф 1Password для агентов на Windows без паролей и подтверждений",
+    "longDescription": "Только для Windows. Настраивает машину так, чтобы любой агент читал, создавал, правил и удалял записи в одном выделенном сейфе 1Password без окна пароля, Windows Hello и вопросов: токен сервисного аккаунта в пользовательском окружении, правила разрешений и автоматического режима Claude Code, общие правила для Claude и Codex, проверка записью и удалением. Остальные сейфы остаются защищены.",
+    "developerName": "kyzdes",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/kyzdes/op-agent-vault-windows-skill",
+    "defaultPrompt": [
+      "Настрой 1Password на этом Windows, чтобы агенты писали в Development без подтверждений.",
+      "Почему op каждый раз просит пароль 1Password?",
+      "Проверь, как агенты на этой машине работают с 1Password."
+    ],
+    "brandColor": "#0A2D5C"
+  }
+}
